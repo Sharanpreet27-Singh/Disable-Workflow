@@ -1,0 +1,14 @@
+name: Disable Workflow
+
+on: 
+ push:
+   branches: [ main ]
+
+jobs:
+  Disable:
+   runs-on: ubuntu-latest
+
+   steps:
+     - name: Sharan
+       run: echo"Disable activated"
+                
